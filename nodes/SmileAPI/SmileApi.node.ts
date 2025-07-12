@@ -12,13 +12,13 @@ export class SmileApi implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Smile API',
 		name: 'smileApi',
-		icon: 'file:evolutionapi.svg',
+		icon: 'file:whatsapp.svg',
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"]}}',
-		description: 'Interact with Evolution API',
+		description: 'Interact with Smile API',
 		defaults: {
-			name: 'Evolution API',
+			name: 'Smile API',
 		},
 		// @ts-ignore
 		inputs: ['main'],
@@ -26,12 +26,12 @@ export class SmileApi implements INodeType {
 		outputs: ['main'],
 		credentials: [
 			{
-				name: 'evolutionApi',
+				name: 'smileApi',
 				required: true,
 			},
 		],
 		requestDefaults: {
-			baseURL: 'https://doc.evolution-api.com/api-reference',
+			baseURL: 'https://api.smileapi.com.br/docs',
 			url: '',
 			headers: {
 				Accept: 'application/json',
