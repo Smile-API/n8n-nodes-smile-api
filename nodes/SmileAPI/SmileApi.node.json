@@ -1,17 +1,17 @@
 {
 	"node": "n8n-nodes-base.httpbin",
-	"nodeVersion": "1.0",
-	"codexVersion": "1.0",
+	"nodeVersion": "1.1",
+	"codexVersion": "1.1",
 	"categories": ["Development", "Developer Tools"],
 	"resources": {
 		"credentialDocumentation": [
 			{
-				"url": "http://httpbin.org/#/Auth/get_bearer"
+				"url": "https://api.smileapi.com.br/docs"
 			}
 		],
 		"primaryDocumentation": [
 			{
-				"url": "http://httpbin.org/"
+				"url": "https://api.smileapi.com.br/docs"
 			}
 		]
 	}
